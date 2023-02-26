@@ -22,7 +22,7 @@ namespace PracticeDay2
                 Console.WriteLine();
 
             }
-            Console.WriteLine("_________________________________________________");
+            Console.WriteLine("__________________________________________________");
         }
 
         public static void Pattern2()
