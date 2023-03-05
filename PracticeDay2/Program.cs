@@ -11,9 +11,12 @@ public class Program
         //NestedLoop4();
         //NestedLoop5();
         //NestedLoop6();
-        Pattern.Pattern1();
-        Pattern.Pattern2();
-
+        //Pattern.Pattern1();
+        //Pattern.Pattern2();
+        //Pattern.Pattern3();
+        //Pattern.Pattern4();
+        //Pattern.Pattern5();
+        Pattern.Pattern6();
     }
 
     //static void NestedLoop1()
