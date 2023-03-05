@@ -1,5 +1,6 @@
 ﻿
-using PracticeDay2;
+using PatternStaticNonStatic;
+
 
 public class Program
 {
@@ -11,12 +12,32 @@ public class Program
         //NestedLoop4();
         //NestedLoop5();
         //NestedLoop6();
+
+        Pattern.Pattern0();
         //Pattern.Pattern1();
         //Pattern.Pattern2();
         //Pattern.Pattern3();
         //Pattern.Pattern4();
         //Pattern.Pattern5();
-        Pattern.Pattern6();
+        //Pattern.Pattern6();
+
+
+        Pattern pattern= new Pattern();       //the funtion is non static that's why we have to create object/instance
+        pattern.Pattern7();
+
+        Pattern.StaticFunction1();          // direct call for static function with class name
+        Pattern.StaticFunction2();
+
+
+
+
+        Pattern pattern1 = new Pattern();   // create object for calling nonstatic function from outside of the class 
+        pattern1.NonStaticFunction1();
+
+        Pattern pattern2 = new Pattern();
+        pattern2.NonStaticFunction2();
+
+
     }
 
     //static void NestedLoop1()
