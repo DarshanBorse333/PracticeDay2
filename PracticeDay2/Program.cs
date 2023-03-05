@@ -13,6 +13,7 @@ public class Program
         //NestedLoop5();
         //NestedLoop6();
 
+
         Pattern.Pattern0();
         //Pattern.Pattern1();
         //Pattern.Pattern2();
