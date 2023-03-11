@@ -11,6 +11,72 @@ namespace PatternStaticNonStatic
     internal class Pattern
     {
         
+        public void StarPattern()
+        {
+            GetNumberFromUser();
+
+            for (int i = 1; i <= Number; i++)
+            {
+                for (int k = 1; k <= Number - i; k++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+
+
+
+                for (int j = 1; j <= i - 1 ; j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
+
+            for (int i = Number - 1; i >= 1; i--)
+            {
+                for (int k = 1; k <= Number - i; k++)
+                {
+                    Console.Write(" ");
+                }
+
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+
+                for (int j = 1; j <= i - 1; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         public static void StaticFunction1()
         {
             StaticFunction2();
@@ -71,30 +137,30 @@ namespace PatternStaticNonStatic
             
         }
 
-      
+
         //static function
 
-        public static void Pattern0()
-        {
+        //public static void Pattern0()
+        //{
 
-            Pattern pattern = new Pattern();     //creating object for, from calling static block
-            pattern.GetNumberFromUser();        
+        //    Pattern pattern = new Pattern();     //creating object for, from calling static block
+        //    pattern.GetNumberFromUser();
 
-            //Console.WriteLine("Enter the limit ");
-            //string str = Console.ReadLine();
-            //int limit = Convert.ToInt32(str);
+        //    //Console.WriteLine("Enter the limit ");
+        //    //string str = Console.ReadLine();
+        //    //int limit = Convert.ToInt32(str);
 
 
-            for (int i = 1; i <= limit; i++)
-            {
-                for (int j = 1; j <= limit; j++)
-                {
-                    Console.Write(j + " ");
-                }
+        //    for (int i = 1; i <= limit; i++)
+        //    {
+        //        for (int j = 1; j <= limit; j++)
+        //        {
+        //            Console.Write(j + " ");
+        //        }
 
-                Console.WriteLine();
-            }
-        }
+        //        Console.WriteLine();
+        //    }
+        //}
 
 
 

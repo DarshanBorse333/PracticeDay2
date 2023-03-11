@@ -6,6 +6,8 @@ public class Program
 {
     public static void Main()
     {
+        Pattern pattern5 = new Pattern();
+        pattern5.StarPattern();
         //NestedLoop1();
         //NestedLoop2();
         //NestedLoop3();
@@ -14,7 +16,7 @@ public class Program
         //NestedLoop6();
 
 
-        Pattern.Pattern0();
+        //Pattern.Pattern0();
         //Pattern.Pattern1();
         //Pattern.Pattern2();
         //Pattern.Pattern3();
